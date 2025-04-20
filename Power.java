@@ -5,13 +5,17 @@ public class Power {
 	Scanner input = new Scanner(System.in);
 
 	System.out.print("Enter an integer value: ");
-	Int num = input.nextInt();
+	int num = input.nextInt();
 
 	System.out.print("Enter power: ");
-	Int power = input.nextInt();
+	int power = input.nextInt();
 	
 	int answer = 1;
+	for (int i = 1; i <= power; i++) {
+ 
+	answer = answer * num;  
+}
 
-	int answer = answer * num,  
+	System.out.println("Number ^ power = " + answer);
 }
 }
