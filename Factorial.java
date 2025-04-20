@@ -5,7 +5,7 @@ public class Factorial {
 
 	Scanner input = new Scanner(System.in);
 	
-	long factorial = 1;
+	int factorial = 1;
 
 	System.out.print("Enter any number: ");
 	int number = input.nextInt();
@@ -14,8 +14,6 @@ public class Factorial {
 	System.out.println("Invalid input");
 
 }	else {
-	
-
             for (int i = 1; i <= number; i++) {
                 factorial = factorial * number;
 }
