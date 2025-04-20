@@ -15,7 +15,7 @@ public class Factorial {
 
 }	else {
             for (int i = 1; i <= number; i++) {
-                factorial = factorial * number;
+                factorial = factorial * i;
 }
 	 System.out.println("The factorial of " + number + " is " + factorial);
 	}
