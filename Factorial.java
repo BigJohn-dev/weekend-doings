@@ -6,8 +6,10 @@ public class Factorial {
 	Scanner input = new Scanner(System.in);
 	
 	int factorial = 1;
-
-	System.out.print("Enter any number: ");
+	int res;
+	
+	do{
+	System.out.print("\nEnter any number: ");
 	int number = input.nextInt();
 
 	if (number < 0) {
@@ -18,9 +20,13 @@ public class Factorial {
                 factorial = factorial * i;
 }
 	 System.out.println("The factorial of " + number + " is " + factorial);
+
 	}
-
-
+	System.out.print("\nEnter any number to continue or 0 to quit:");
+	res = input.nextInt();
+}
+	while (res != 0);
+	System.out.println("You quit");
 }
 
 }

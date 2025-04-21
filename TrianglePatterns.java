@@ -17,10 +17,10 @@ public class TrianglePatterns {
 }
 
 	for (int b = 1; b <= a; b++) {
-		for (int c = 1; c <= b; c++) {
-		System.out.print("");
+		for (int c = 1; c < b; c++) {
+		System.out.print(" ");
 	}
-		for (int c = b; c <= a; c++) {
+		for (int d = b; d < a; d++) {
 		System.out.print("* ");
 	}
 
