@@ -5,8 +5,13 @@ public class Nokia3310II {
 	Scanner input = new Scanner(System.in);
 
 	System.out.println(" _- WELCOME TO YOUR NOKIA PHONE -_ ");
+	System.out.println("Press 0 to go to menu");	
 
-	System.out.println("\n List of Menu Functions ");
+	while (true) {
+	int chia = input.nextInt();
+
+	switch (chia) {
+	case 0: System.out.println("\n List of Menu Functions ");
 
 		String Menu = """
 
@@ -23,6 +28,7 @@ public class Nokia3310II {
 		11. Clock
 		12. Profiles
 		13. SIM services
+		0. Back
 	
 		""";
 		System.out.println(Menu);
@@ -43,6 +49,7 @@ public class Nokia3310II {
 		8. Options
 		9. Speed dials
 		10. Voice tags
+		0. Back
 
 		""";
 		System.out.println(one);
@@ -55,9 +62,13 @@ public class Nokia3310II {
 
 		1. Type of view
 		2. Memory status
+		0. Back
 
 		""";
-		System.out.println(eight);
+		System.out.println(eight);break;
+
+	case 0: System.out.println("Going back to Menu..");
+		menu = input.nextInt();break;
 }
 }break;
 
@@ -75,6 +86,7 @@ public class Nokia3310II {
 		8. Info service
 		9. Voice mailbox number
 		10. Service command editor
+		0. Back
 
 		""";
 		System.out.println(two);
@@ -86,6 +98,7 @@ public class Nokia3310II {
 
 		1. Set 1
 		2. Common
+		0. Back
 	
 		""";
 		System.out.println(sev);
@@ -98,6 +111,7 @@ public class Nokia3310II {
 		1. Message centre number
 		2. Messages sent as
 		3. Message validity
+		0. Back
 	
 		""";
 		System.out.println(num);break;
@@ -108,17 +122,19 @@ public class Nokia3310II {
 		1. Delivery report
 		2. Reply via same centre
 		3. Character support
+		0. Back
 
 		""";
 		System.out.println(nom);break;
 
-	default: System.out.println("..."); 
+	default: System.out.println("...");break; 
 }
 	default: System.out.println("...");
 }
 }break;
 
-	case 3: System.out.println("Chat");break;
+	case 3: System.out.println("Chat"); 
+		System.out.println("0. Back");break;
 
 
 	case 4:	System.out.println("Call register"); {
@@ -132,6 +148,7 @@ public class Nokia3310II {
 		6. Show call costs
 		7. Call cost settings
 		8. Prepaid credit
+		0. Back
 
 		""";
 		System.out.println(four);
@@ -145,6 +162,7 @@ public class Nokia3310II {
 		3. Received calls' duration
 		4. Dialled calls' duration
 		5. Clear timers
+		0. Back
 
 		""";
 		System.out.println(Five);break;
@@ -154,6 +172,8 @@ public class Nokia3310II {
 		1. Last call cost
 		2. All calls' cost
 		3. Clear counters
+		0. Back
+
 		
 		 """;
 		System.out.println(Six);break;
@@ -162,6 +182,7 @@ public class Nokia3310II {
 		String SEV = """
 		1. Call cost limit
 		2. Show costs in
+		0. Back
 
 		""";
 		System.out.println(SEV);break;
@@ -182,6 +203,8 @@ public class Nokia3310II {
 		7. Warning and game tones
 		8. Vibrating alert
 		9. Screen saver
+		0. Back
+
 
 		""";
 		System.out.println(tones);
@@ -194,6 +217,7 @@ public class Nokia3310II {
 		2. Phone settings
 		3. Security settings
 		4. Restore factory setting
+		0. Back
 
 		""";
 		System.out.println(settings);
@@ -209,6 +233,7 @@ public class Nokia3310II {
 		4. Own number sending
 		5. Phone line in use
 		6. Automatic answer
+		0. Back
 
 		""";
 		System.out.println(Set6);break;
@@ -222,6 +247,7 @@ public class Nokia3310II {
 		4. Network selection
 		5. Lights
 		6. Confirm SIM service actions
+		0. Back
 
 		""";
 		System.out.println(Phone);break;
@@ -235,23 +261,29 @@ public class Nokia3310II {
 		4. Closed user group
 		5. Phone security
 		6. Change access codes
+		0. Back
 
 		""";
 		System.out.println(cell);break;
 
-	case 4: System.out.println("Restore factory settings...");break;
+	case 4: System.out.println("Restore factory settings...");
+		System.out.println("0. Back");break;
 
 	default: System.out.print("....");
 }
 }break;
 
-	case 7: System.out.println("Call divert");break;
+	case 7: System.out.println("Call divert");
+		System.out.println("0. Back");break;
 
-	case 8: System.out.println("Games");break;
+	case 8: System.out.println("Games");
+		System.out.println("0. Back");break;
 
-	case 9: System.out.println("Calculator");break;
+	case 9: System.out.println("Calculator");
+		System.out.println("0. Back");break;
 
-	case 10: System.out.println("Reminders");break;
+	case 10: System.out.println("Reminders");
+		System.out.println("0. Back");break;
 
 	case 11: System.out.println("Clock"); {
 
@@ -263,21 +295,24 @@ public class Nokia3310II {
 		4. Stopwatch
 		5. Countdown timer
 		6. Auto update of date and time
-
+		0. Back
 		""";
 		System.out.println(Cell);
 }break;
 
-	case 12: System.out.println("Profiles");break;
+	case 12: System.out.println("Profiles");
+		System.out.println("0. Back");break;
 
-	case 13: System.out.println("SIM services");break;
+	case 13: System.out.println("SIM services");
+		 System.out.println("0. Back");break;
 
+	
 	default : System.out.println("...");
 
 }
 	
-	
-
+}	
+}
 
 }
 
