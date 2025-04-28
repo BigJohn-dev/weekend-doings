@@ -5,9 +5,12 @@ public class Nokia3310II {
 	Scanner input = new Scanner(System.in);
 
 	System.out.println(" _- WELCOME TO YOUR NOKIA PHONE -_ ");
-	System.out.println("Press 0 to go to menu");	
+	System.out.println("\nHome page");
+
+	System.out.println("Press 0 to go to menu");
 
 	while (true) {
+
 	int chia = input.nextInt();
 
 	switch (chia) {
@@ -32,9 +35,10 @@ public class Nokia3310II {
 	
 		""";
 		System.out.println(Menu);
+}
 		int menu = input.nextInt();
-
 	switch (menu) {
+	
 	case 1: System.out.println("Phone book"); {
 
 		String one = """
@@ -53,8 +57,8 @@ public class Nokia3310II {
 
 		""";
 		System.out.println(one);
+
 		int One = input.nextInt();
-	
 	switch (One) {
 	case 8: System.out.println("Option");
 	
@@ -65,9 +69,7 @@ public class Nokia3310II {
 		0. Back
 
 		""";
-		System.out.println(eight);break;
-
-	case 0: System.out.println("Going back to Menu..");
+		System.out.println(eight);
 		menu = input.nextInt();break;
 }
 }break;
@@ -129,7 +131,7 @@ public class Nokia3310II {
 
 	default: System.out.println("...");break; 
 }
-	default: System.out.println("...");
+	default: System.out.println("...");break;
 }
 }break;
 
@@ -307,13 +309,14 @@ public class Nokia3310II {
 		 System.out.println("0. Back");break;
 
 	
-	default : System.out.println("...");
-
+	default : System.out.println("Home page");
+		  System.out.println("Press 0 to go to menu");break;
 }
 	
 }	
-}
+
+
+
 
 }
-
 }
