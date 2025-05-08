@@ -14,13 +14,19 @@ public class Testing {
 	Kata kata = new Kata();
 
 	//System.out.println(Kata.evenAndOddNumberChecker(number));
+
 	//System.out.println(Kata.isPrimeNumber(number));
+
 	//System.out.println(Kata.subtractionOfInteger(number1, number2));
+
 	//System.out.println(Kata.divisionOfInteger(number1, number2));
-	System.out.println(Kata.factorOfInteger(number));
 
+	//System.out.println(Kata.factorOfInteger(number));
 
-	//System.out.println(Kata.factorialOfInteger(number));
+	//System.out.println(Kata.squareOfInteger(number));
+
+	System.out.println(Kata.factorialOfInteger(number));
+
 	//System.out.println(Kata.squareOfInteger(number));
 }
 

@@ -11,17 +11,7 @@ public class Kata {
 //number 2
 	public static boolean isPrimeNumber(int number) {
 
-	if (number <= 1) {
-        return false;
-}
-    	if (number == 2) {
-        return true;
-}
-    	if (number % 2 == 0) {
-        return false;
-}
-	return true;
-}
+	
 
 
 //number 3
@@ -38,31 +28,26 @@ public class Kata {
 }
 	int divide = number1 / number2;
 	return divide;
-}**/
+}
 
 //number 5
 	public static int factorOfInteger(int number) {
-	int count = 0;
-	if (number <= 0) {
-	return 0;
-}
-	if (number == 1) {
-	count = count + 1;
-}
-	return count;
-}
+	
 
 //number 6
-	/**public static int squareOfInteger(int number) {
-	int square = number * number;
-	return square;
+	public static boolean squareOfInteger(int number) {
+	double perfectSquare = Math.sqrt(number);
+
+	if (number % perfectSquare == 0) {
+	return true;
+} 
+	return false;
 }
 	
 
 //number 7
-	public static int isPalindrome(int number) {
-	int square = number * number;
-	return square;
+	public static int isPalindrome(int number)**/
+	
 
 
 //number 8
@@ -78,7 +63,7 @@ public class Kata {
 }
 
 //number 9
-	public static int squareOfInteger(int number) {
+	/**public static int squareOfInteger(int number) {
 	int square = number * number;
 	return square;
 }**/

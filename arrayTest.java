@@ -27,12 +27,21 @@ public class arrayTest {
 
 	//System.out.println(ArrayKata.sumOf(array));
 
-	System.out.println(ArrayKata.sumOfEvenNumbersIn(array));
+	//System.out.println(ArrayKata.sumOfEvenNumbersIn(array));
 
 	//System.out.println(ArrayKata.sumOfOddNumbersIn(array));
 
-	System.out.println(ArrayKata.maximumAndMinimumOf(array));
+	//System.out.println(ArrayKata.maximumAndMinimumOf(array));
 
+	//System.out.println(ArrayKata.noOfOddNumbersIn(array));
+
+	//System.out.println(ArrayKata.noOfEvenNumbersIn(array));
+
+	//System.out.println(ArrayKata.evenNumbersIn(array));
+
+	//System.out.println(ArrayKata.oddNumbersIn(array));
+	
+	System.out.println(ArrayKata.squareNumbersIn(array));
 
 
 
