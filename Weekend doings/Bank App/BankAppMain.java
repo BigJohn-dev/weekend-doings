@@ -20,11 +20,21 @@ WELCOME TO JAVA BANK
 			System.out.println("\n Enter full name: ");
 			String name = input.next();
 			System.out.println("\n Enter phone number: ");
-			int
-			account.bankApp()
-	break;
+			String accountNumber = input.next();
+			System.out.println("Enter password: ");
+			String password = input.next();
+			account.createAccount(String name, String accountNumber, String password, double balance);break;
 			
 		case 2:
+			System.out.println("LOGIN YOUR ACCOUNT");
+			System.out.println("\nEnter account name: ");
+			String name = input.next();
+			System.out.println("Enter account number: ");
+			String accountNumber = input.next();
+			System.out.println("Enter password: ");
+			String password = input.next();
+			account.loginAccount(String name, String accountNumber, String password);break;
+			
 		case 3:
 		case 4:
 
